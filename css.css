@@ -1,0 +1,14 @@
+div {
+    background-color: lightgrey;
+    width: 700px;
+    border: 25px solid green;
+    padding: 40px;
+    margin: 20px;
+  }
+  div2 {
+      background-color: lightgrey;
+      width: 700px;
+      border: 20px solid green;
+      padding: 40px;
+      margin: 10px;
+    }
