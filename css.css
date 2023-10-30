@@ -1,14 +1,20 @@
-div {
-    background-color: lightgrey;
-    width: 700px;
-    border: 25px solid green;
-    padding: 40px;
+box {
+  background-color: rgb(177, 13, 13);
+  width: 800px;
+  height: 600px;
+  border: 1px solid green;
+  position: relative;
+ 
+  margin: 20px;
+}
+.child {
+    background-color: rgb(39, 13, 13);
+    width: 300px;
+    height: 200px;
+    right: 20px;
+    border: 1px solid green;
+  
     margin: 20px;
+    position: absolute;
+    bottom: 50px;
   }
-  div2 {
-      background-color: lightgrey;
-      width: 700px;
-      border: 20px solid green;
-      padding: 40px;
-      margin: 10px;
-    }
